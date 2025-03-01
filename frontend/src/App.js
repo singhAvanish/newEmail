@@ -41,7 +41,7 @@ function App() {
   const sendDataToBackend = async (data) => {
     try {
       // Send the data to the backend
-      const response = await fetch('http://127.0.0.1:5001/send-email', {
+      const response = await fetch('https://newemail.onrender.com/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
