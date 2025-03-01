@@ -67,6 +67,15 @@ function App() {
           <div className="card">
             <div className="card-header bg-primary text-white">
               <h1 className="card-title text-center">Send Email</h1>
+              <p>
+  For more information, visit:{" "}
+  <a
+    href="https://support.google.com/mail/answer/185833?hl=en"
+    style={{ color: "black" }} // Custom color
+  >
+    https://support.google.com/mail/answer/185833?hl=en
+  </a>
+</p>
             </div>
             <div className="card-body">
               <form onSubmit={handleSubmit}>
