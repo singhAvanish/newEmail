@@ -1,0 +1,7 @@
+Flask
+gunicorn
+flask-cors
+python-dotenv
+Crypto.Util.Padding 
+Crypto.Cipher
+dotenv
