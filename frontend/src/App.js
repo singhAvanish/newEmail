@@ -68,7 +68,7 @@ function App() {
             <div className="card-header bg-primary text-white">
               <h1 className="card-title text-center">Send Email</h1>
               <p>
-  For more information, visit:{" "}
+  For app password, visit:{" "}
   <a
     href="https://support.google.com/mail/answer/185833?hl=en"
     style={{ color: "black" }} // Custom color
